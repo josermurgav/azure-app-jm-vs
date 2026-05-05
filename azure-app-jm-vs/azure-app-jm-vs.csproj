@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_jm_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/31770c25-093f-4497-a860-4092752f8761/resourceGroups/rg-webapp-jm-vs/providers/microsoft.insights/components/webappvsjm</ApplicationInsightsResourceId>
+    <UserSecretsId>59a16926-f0c9-4418-85df-700bdb3f3885</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.17.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
